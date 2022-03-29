@@ -72,12 +72,6 @@ const PRESALE_WHITELISTED_ADDRESSES = ["0xeD79841332beB61aC57dfF4A32FB9078C4371d
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x4143705b6E27892b4c29cd992690b2DFea8E8e57"; // If you want to manually include it
 
-// Generic Metadata is optional if you want to reveal your NFTs
-const GENERIC = false; // Set to true if you want to upload generic metas and reveal the real NFTs in the future
-const GENERIC_TITLE = CONTRACT_NAME; // Replace with what you want the generic titles to say if you want it to be different from the contract name.
-const GENERIC_DESCRIPTION = "What Whale Will You Get"; // Replace with what you want the generic descriptions to say.
-const GENERIC_IMAGE = "https://ipfs.io/ipfs/QmUf9tDbkqnfHkQaMdFWSGAeXwVXWA61pFED7ypx4hcsfh"; // Replace with your generic image that will display for all NFTs pre-reveal.
-
 // Automatically set contract address if deployed using the deployContract.js script
 try {
   const rawContractData = fs.readFileSync(
