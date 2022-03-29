@@ -9,7 +9,7 @@ const network = NETWORK.eth;
 // General metadata for Ethereum
 const namePrefix = "Bored Blockchain Whale Club";
 const description = "Super Fun Whale NFT Project. Collect Over 5000 Whales All Ranging From Different Trats";
-const baseUri = "ipfs://NewUriToReplace"; // This will be replaced automatically
+const baseUri = "ipfbafybeice3hfx4igdacobvi3pn2cwzps226qnmkbjoh5cjkmxo7xp6yeldms://NewUriToReplace"; // This will be replaced automatically
 
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
@@ -67,7 +67,7 @@ const ROYALTY_SHARE = 1000; // Percentage of the token price that goes to the ro
 const ROYALTY_ADDRESS = "0x3f11DB8C9BC09D4cc397D086a330C72006437F8e"; // Address that will receive the royalty
 const BASE_URI = null; // only update if you want to manually set the base uri
 const PREREVEAL_TOKEN_URI = null; // only update if you want to manually set the prereveal token uri
-const PRESALE_WHITELISTED_ADDRESSES = ["0xeD79841332beB61aC57dfF4A32FB9078C4371dad"] // only update if you want to manually set the whitelisted addresses
+const PRESALE_WHITELISTED_ADDRESSES = ["0x318dB5c91361d1b47115A58E1Fa1955b0041f2FD"] // only update if you want to manually set the whitelisted addresses
 
 // ** OPTIONAL **
 let CONTRACT_ADDRESS = "0x4143705b6E27892b4c29cd992690b2DFea8E8e57"; // If you want to manually include it
